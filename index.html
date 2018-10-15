@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</head>
+
+<body>
+  <div>
+  <h1 id="title">Survey Form 📝</h1>
+  <p id="description"><em>Fill out the short survey below...</em></p>
+  <div>
+    <form id="survey-form">
+      <label id="name-label">Name: </label><input id="name" type="text" placeholder="Enter your name" required><br/><br/>
+      <label id="email-label">Email: </label><input id="email" type="email" placeholder="Enter your email address" required><br/><br/>
+      <label id="number-label">Age: </label><input id="number" type="number" placeholder="Enter your age" min="0" max="100" required><br/><br/>
+
+      <div id="dropdown"><strong>Coding Competence: </strong>
+        <select>
+          <option value="novice">Novice</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="experienced">Experienced</option>
+          <option value="expert">Expert</option>
+        </select> <br/><br/>
+      </div>
+
+      <div id="referral"><strong>❓ How likely are you to suggest your friends should learn to code?</strong> <br/><br/>
+        <input type="radio" name="rating" value="1"> Definitely <br/>
+        <input type="radio" name="rating" value="2"> Maybe <br/>
+        <input type="radio" name="rating" value="3"> Nope <br/><br/>
+      </div>
+
+      <div id="checkbox"><strong>❓ Which areas do you feel you need to improve in learning web engineering?</strong> <br/><br/>
+        <input type="checkbox" name="" value="js"> JavaScript <br/>
+        <input type="checkbox" name="" value="css"> CSS <br/>
+        <input type="checkbox" name="" value="git"> Learning Git <br/>
+        <input type="checkbox" name="" value="react"> React and Redux <br/>
+        <input type="checkbox" name="" value="ajax"> AJAX <br/><br/>
+      </div>
+
+      <div>
+        <strong>❓ Do you have anything else you'd like to share about your coding journey to date?</strong> <br/><br/>
+        <textarea rows="4" cols="40"></textarea> <br/><br/>
+      </div>
+
+      <div class="done">
+        <button id="submit" type="submit">✔</button>
+      </div>
+    </form>
+  </div>
+
+</body>

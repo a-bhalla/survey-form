@@ -1,0 +1,43 @@
+html{
+  background-color: #D8BFD8;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+#survey-form {
+  background-color: white;
+  margin: 30px;
+  padding: 20px 20px 20px;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  color: white;
+}
+
+.done {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#submit {
+  height: 60px;
+  width: 60px;
+  font-size: 28px;
+  border-radius: 13%;
+  border: 10px;
+  background: #D8BFD8;
+}
+
+#submit:hover {
+  background: #3CB371;
+}
